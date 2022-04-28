@@ -1,10 +1,17 @@
 import React from 'react'
+import Saludo from '../Greeting/Saludo'
+import Cards from '../ItemList/Cards'
+
 
 const ItemListcontainer = () => {
   return (
-    <div>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, impedit fuga magnam magni necessitatibus quam doloribus eos neque sit minima asperiores, rerum quas soluta sint. Corporis, id. Dolor incidunt molestias ad necessitatibus in? Voluptas delectus minus repudiandae placeat vero porro architecto nobis dolore. Eligendi quod officia quia praesentium aspernatur voluptate.</p>
+    <div className="stiloContainer">
+      <div className='text-center text-secondary bg-light'>
+        <Saludo persona="Diomar" />
+        <Cards />
     </div>
+    </div>
+
   )
 }
 

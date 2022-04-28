@@ -3,7 +3,7 @@ import { FaCartPlus } from "react-icons/fa";
 
 const NavBar = () => {
   return (
-    <nav className="navbar p-0 navbar-expand-lg sticky-top navbar-dark bg-dark">
+    <nav className="navbar p-2  navbar-expand-lg sticky-top navbar-dark bg-dark">
       <div className="container-fluid">
         <div className="navbar-brand" href="#">
           <img src="#" className="img-fluid" width="200px" alt="" color="secundary"/>
@@ -24,32 +24,32 @@ const NavBar = () => {
           <ul className="navbar-nav m-lg-auto me-auto ml-2 mb-lg-0 align-items-center">
             <li className="nav-item">
               <a
-                className="nav-link active text-white"
+                className="nav-link active text-success m-2"
                 aria-current="page"
-                href="./index.html"
+                href=""
               >
                 Inicio
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item m-2">
               <a
-                className="nav-link active text-white"
+                className="nav-link active text-success"
                 aria-current="page"
                 href="./paginas/clanes.html"
               >
                 Articulos
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item m-2">
               <a
-                className="nav-link active text-white"
+                className="nav-link active text-success"
                 aria-current="page"
                 href="./paginas/alianzas.html"
               >
                 Carrito
               </a>
             </li>
-            <button >
+            <button className=" m-2 text-success">
               <FaCartPlus />
             </button>
           </ul>
