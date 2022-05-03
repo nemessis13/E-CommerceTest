@@ -18,7 +18,7 @@ const Cards = () => {
             <div className="col-md-4 p-2">
             <Card />
             </div>
-           
+            
         </div>
     </div>
     </div>

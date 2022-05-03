@@ -6,7 +6,13 @@ const NavBar = () => {
     <nav className="navbar p-2  navbar-expand-lg sticky-top navbar-dark bg-dark">
       <div className="container-fluid">
         <div className="navbar-brand" href="#">
-          <img src="#" className="img-fluid" width="200px" alt="" color="secundary"/>
+          <img
+            src="#"
+            className="img-fluid"
+            width="200px"
+            alt=""
+            color="secundary"
+          />
           PS Store
         </div>
         <button
